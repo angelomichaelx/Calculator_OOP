@@ -5,4 +5,8 @@
 # Create calculator class
 class calculator:
 
+# constructor
+    def __init__(self):
+        self.operators = ('+','-','*','/')
+        
 
