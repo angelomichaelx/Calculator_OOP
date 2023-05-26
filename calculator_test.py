@@ -1,3 +1,3 @@
 from calculator_main import calculator
-calculator = Calculator()
+calculator = calculator()
 calculator.run_calculator()
