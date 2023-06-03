@@ -5,6 +5,8 @@ class UserInterface:
 #input code
         inp = float(input("Input a number: "))
         return inp
-
     
+#functionality to display
+    def display_sum(sum):
+        print("Sum: " + str(sum))
         
