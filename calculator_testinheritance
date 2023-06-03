@@ -1,0 +1,2 @@
+#importing calcu_inheritance from calculator_inheritance.py file
+from calculator_inheritance import calcu_inheritance
