@@ -1,14 +1,16 @@
 #import
 from user_interface import UserInterface
 from calculator_inheritance import Calcu_inheritance
+from calculator_main import calculator
 
 ui = UserInterface()
 calcuinheritance = Calcu_inheritance()
+calcumain = calculator()
 
-num1 = ui.ask_user_input()
-num2 = ui.ask_user_input()
+number1 = ui.ask_user_input()
+number2 = ui.ask_user_input()
 
-sum = calcuinheritance.add(num1, num2)
+sum = calcuinheritance.add(number1, number2)
 
 ui.display_sum(sum)
 
