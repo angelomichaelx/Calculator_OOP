@@ -1,2 +1,8 @@
-#importing calcu_inheritance from calculator_inheritance.py file
-from calculator_inheritance import calcu_inheritance
+#import
+from user_interface import UserInterface
+from calculator_inheritance import Calcu_inheritance
+
+ui = UserInterface()
+
+num1 = ui.ask_user_input()
+num2 = ui.ask_user_input()
