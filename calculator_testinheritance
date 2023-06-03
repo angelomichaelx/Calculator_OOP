@@ -3,6 +3,7 @@ from user_interface import UserInterface
 from calculator_inheritance import Calcu_inheritance
 
 ui = UserInterface()
+calcuinheritance = Calcu_inheritance()
 
 num1 = ui.ask_user_input()
 num2 = ui.ask_user_input()
