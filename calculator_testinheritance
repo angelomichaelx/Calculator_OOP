@@ -10,6 +10,7 @@ num2 = ui.ask_user_input()
 
 sum = calcuinheritance.add(num1, num2)
 
-def display_sum(sum):
-    print("Sum: " + str (sum))
+ui.display_sum(sum)
+
+
 

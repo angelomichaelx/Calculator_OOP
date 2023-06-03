@@ -7,6 +7,6 @@ class UserInterface:
         return inp
     
 #functionality to display
-    def display_sum(sum):
+    def display_sum(self, sum):
         print("Sum: " + str(sum))
         
