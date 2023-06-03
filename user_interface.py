@@ -1,3 +1,7 @@
 # Create UserInterface class
 class UserInterface:
-    pass
+#define method
+    def ask_user_input(self):
+
+    
+        
