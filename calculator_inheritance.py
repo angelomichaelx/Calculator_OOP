@@ -1,4 +1,4 @@
-
+class Calculator_inheritance:
 
 
 
